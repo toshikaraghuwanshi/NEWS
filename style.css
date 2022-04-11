@@ -55,6 +55,19 @@ span.category{
     background: rgb(63, 132, 56);
 }
 
+h1{
+    cursor: pointer;
+}
+
+.parent-block:hover h2 {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+img {
+    cursor: pointer;
+}
+
 /* Media query */
 
 @media screen and (max-width: 413px) {
