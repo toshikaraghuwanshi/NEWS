@@ -8,6 +8,8 @@ I created this section of 7News website.
 ## This is what i built:
 ![7newswebsite](https://raw.githubusercontent.com/toshikaraghuwanshi/portfolio/main/7newstoshika.png)
 
+### Mobile View
+![7newswebsite](https://github.com/toshikaraghuwanshi/NEWS/blob/main/screenshot/My%20image%20mobile%20view1.png?raw=true)
 
 
 ## This is what i had to build:
@@ -18,7 +20,8 @@ I created this section of 7News website.
 ![7newswebsite](https://github.com/toshikaraghuwanshi/NEWS/blob/main/screenshot/my%20image.png?raw=true)
 
 ### Mobile View
-![7newswebsite](https://github.com/toshikaraghuwanshi/NEWS/blob/main/screenshot/My%20image%20mobile%20view1.png?raw=true)
+![7newswebsite](https://github.com/toshikaraghuwanshi/NEWS/blob/main/screenshot/my%20image%20mobile%20view.png?raw=true)
+
 
 Please refer code for code review.
 
