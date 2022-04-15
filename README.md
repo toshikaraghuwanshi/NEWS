@@ -18,7 +18,7 @@ I created this section of 7News website.
 ![7newswebsite](https://github.com/toshikaraghuwanshi/NEWS/blob/main/screenshot/my%20image.png?raw=true)
 
 ### Mobile View
-
+![Mobile view] (https://github.com/toshikaraghuwanshi/NEWS/blob/main/screenshot/My%20image%20mobile%20view1.png?raw=true)
 Please refer code for code review.
 
 ## Technology Used / Features:
