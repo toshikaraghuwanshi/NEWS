@@ -3,6 +3,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap:0.9375rem 1.25rem;
     }
+
 .container-block{
     padding: 16px 16px 7px;
     box-shadow: rgb(0 0 0 / 25%) 0px 0px 7px;
@@ -17,10 +18,12 @@ h1{
     font-weight: 400;
     color: #000;
     border-bottom: 8px solid #000;
+    margin-bottom: 16px;
 }
 h2{
     height: 43.84px;
     margin-bottom: 20px;
+    font-size: 19px;
 }
 p{
     line-height: 19px;
@@ -59,7 +62,8 @@ h1{
     cursor: pointer;
 }
 
-.parent-block:hover h2 {
+.parent-block:hover h2,
+.parent-block:hover h3 {
     text-decoration: underline;
     cursor: pointer;
 }
@@ -75,3 +79,104 @@ img {
     grid-template-columns: repeat(1, 1fr);}
 }
 /* Media query */
+
+
+
+/* Another blog Website */
+.blog-block-conatiner{
+padding-left: 36px;
+padding-right: 36px;
+}
+.two-block{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.smartphone-block h2{
+    font-size: 30px;
+    font-family: HeyWow, Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 34px;
+}
+
+h2.bold{
+    height: 118px;
+    font-size: 32px;
+}
+
+h3{
+    font-size: 15px;
+    padding-right: 10px;
+    line-height: 17px;
+    padding-bottom: 58px;
+}
+
+span.big-arrow{
+    right: 40px;
+    bottom: 29px;
+    font-size: 25px;
+    color: rgb(63, 132, 56);
+    position: absolute;
+}
+span.small-arrow{
+    right: 16px;
+    bottom: 10px;
+    font-size: 15px;
+    color: rgb(63, 132, 56);
+    position: absolute;
+}
+.big-polygon{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 35px;
+    height: 60px;
+    clip-path: polygon(100% 0px, 0px 100%, 100% 100%);
+    display: block;
+    background: rgb(63, 132, 56);
+}
+.small-polygon{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 17px;
+    height: 34px;
+    clip-path: polygon(100% 0px, 0px 100%, 100% 100%);
+    display: block;
+    background: rgb(63, 132, 56);
+}
+
+
+.container-block-additional {
+    box-shadow: none;
+    padding: 0;
+}
+p.content{
+    bottom: 9px;
+    position: absolute;
+}
+/* Media query start */
+
+
+@media screen and (max-width: 429px) {
+    .two-block
+    {
+    grid-template-columns: repeat(1, 1fr);
+    padding-bottom: 10px;
+}
+.parent-block{
+    grid-template-columns: repeat(2, 1fr);
+
+}
+h2.bold {
+    font-size: 15px;
+    line-height: 20px;
+    height: 100px;
+}
+h1 {
+    text-align: center;
+    font-size: 25px;
+}
+
+}
+/* Media query end*/
