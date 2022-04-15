@@ -11,11 +11,13 @@ I created this section of 7News website.
 
 
 ## This is what i had to build:
+### Desktop View
 ![7newswebsite](https://github.com/toshikaraghuwanshi/NEWS/blob/main/screenshot/7news%20image.png?raw=true)
 
 ## This is what i built:
 ![7newswebsite](https://github.com/toshikaraghuwanshi/NEWS/blob/main/screenshot/my%20image.png?raw=true)
 
+### Mobile View
 
 Please refer code for code review.
 

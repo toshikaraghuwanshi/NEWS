@@ -176,6 +176,8 @@ h2.bold {
 h1 {
     text-align: center;
     font-size: 25px;
+    border-width: 3px;
+    line-height: 35px;
 }
 
 }
