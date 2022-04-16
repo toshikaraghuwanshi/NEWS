@@ -173,8 +173,9 @@ img {
 
 /* Another blog Website */
 .blog-block-conatiner{
-padding-left: 36px;
-padding-right: 36px;
+    padding-left: 36px;
+    padding-right: 36px;
+    margin-top: 36px;
 }
 .two-block{
     display: grid;
