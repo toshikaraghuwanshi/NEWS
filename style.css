@@ -1,3 +1,92 @@
+.header{
+    background-color: #e5e4e2;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0% auto;
+    width: 1000px;
+}
+.header-container img{
+    margin-top: 29px;
+    cursor: default;
+    
+}
+.date{
+    color: #000;
+    text-align: center;
+    margin-top: 40px;
+    padding-right: 35px;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+img.logo:hover{
+    cursor: pointer;
+}
+
+ul.menu{
+    width: 764px;
+    margin:0 auto;
+    display: flex;
+    list-style-type: none;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+ul.menu li{
+    padding:2px;
+    width: 100%;
+    line-height: 55px;
+    font-size: 15px;
+    font-family:  "Roboto Condensed", "Arial Narrow", Helvetica, Arial, sans-serif;
+}
+ul.menu li:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
