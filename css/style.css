@@ -85,9 +85,19 @@ img.logo:hover{
     z-index: 9;
 
 }
-ul.menu{
+.header-wrapper {
     width: 865px;
     margin:0 auto;
+    display: flex;
+}
+.header-wrapper .logo {
+    display: none;
+}
+.sticky .header-wrapper .logo {
+    display: inline-block;
+}
+ul.menu{
+    
     display: flex;
     list-style-type: none;
     margin: 0 auto;
@@ -461,8 +471,102 @@ footer .content li a:hover{
     display: none; 
 }
 /* Hide the divider for the last block */
-width: 10px;
-position: relative;
-top: -2px;
-margin-right: 6px;
-fill: red;
+/* Media query for header */
+
+@media screen and (max-width: 429px) {
+    .header-container
+    {
+        display: none;
+}
+.nav-container li{
+    display: none;
+    }
+.nav-container{
+    text-align: center;
+}    
+.nav-container img.logo{
+    display: inline-block;
+    padding-top: 19px;
+    padding-bottom: 8px;
+  
+}
+.footer-container{
+    padding-left: 20px;
+}
+.heading {
+     width: 100%;
+    }
+
+.footer-container ul{
+    width: calc(100% - 10px);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 9px;
+    grid-template-rows: repeat(5, 1fr);
+    grid-auto-flow: row;
+    font-size: 10px;
+    font-family:  "Roboto Condensed", "Arial Narrow", Helvetica, Arial, sans-serif;
+    line-height: 3;
+}
+.content.social-icons {
+    display: flex;
+    gap: 0;
+}
+ul.last-block{
+    display: block;
+    padding-top: 9px;
+    padding-bottom: 15px;
+    line-height: 35px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+}
+.content.social-icons .twitter svg {
+    background-color: var(--blue);
+    fill: var(--white);
+    padding: 5px;
+    border-radius: 18px;
+    width: 23px;
+    height: 23px;
+    border: 2px solid transparent;
+}
+.content.social-icons .facebook svg {
+    background-color: var(--darkblue);
+    fill: var(--white);
+    padding: 4px;
+    border-radius: 18px;
+    width: 23px;
+    height: 23px;
+    border: 2px solid transparent;
+}
+
+.content.social-icons .instagram svg {
+    background: radial-gradient(circle at 30% 107%, rgb(253, 244, 151) 0%, rgb(253, 244, 151) 5%, #fd5949 45%, rgb(214, 36, 159) 60%, rgb(40, 90, 235) 90%);
+    fill: var(--white);
+    padding: 5px;
+    border-radius: 15px;
+    width: 22px;
+    height: 22px;
+    border: 2px solid transparent;
+}
+.content.social-icons .message svg {
+    background-color: var(--voilet);
+    fill: var(--white);
+    padding: 7px;
+    border-radius: 25px;
+    width: 20px;
+    height: 19px;
+    border: 2px solid transparent;
+}
+
+
+.last-block li:after {
+    display: none;
+  }
+
+  .header-wrapper {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+}
