@@ -1,5 +1,9 @@
 # 7NEWS Blog component
 
+### See website here: 
+https://7news.netlify.app/
+
+
 I created this section of 7News website.
 
 ## This is what i had to build:
