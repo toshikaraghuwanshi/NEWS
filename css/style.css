@@ -96,6 +96,14 @@ ul.menu li{
     padding-right: 10px;
 
 }
+ul.menu li a {
+    color: var(--black);
+    text-decoration: none;
+}
+ul.menu li a:hover {
+    text-decoration: none;
+    color: var(--white);
+}
 ul.menu li:hover{
     background-color: var(--red);
     color: var(--white);
@@ -103,6 +111,9 @@ ul.menu li:hover{
     transition-property: background-color;
     transition-duration: 0.25s;
     transition-delay: 0;
+}
+ul.menu li:hover a{
+    color: var(--white);
 }
 .container{
     display: grid;
@@ -428,6 +439,9 @@ footer .content li a:hover{
     color: var(--white);
     background-color: var(--black);
 
+}
+.news-container .nav-container a{
+    color: var(--white);
 }
 .news-container .nav-container li:hover:hover{
     background-color: var(--yellow);
