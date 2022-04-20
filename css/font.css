@@ -241,8 +241,7 @@
     src:
       local('HeyWow Light'),
       local('HeyWow-Light'),
-      url('../font/HeyWow-Light.26981c18.otf') format('opentype'), 
-      url('../font/HeyWow-Light.27fe2c42.ttf') format('ttf');
+      url('../font/HeyWow-Light.26981c18.otf') format('opentype');
   }
   
   /* heywow-regular */
