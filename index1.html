@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>7NEWS: Latest &amp; Breaking News Headlines - Online News Today from Australia</title>
+    <link rel="icon" type="image/png" size="16x16 32x32 64x64" href="./images/favicon.png">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header id="myHeader">
+        <div class="news-container">
+        <div class="header-container news-content">
+            <img class="logo mobile-conatiner" src="./images/7news.png" alt="img"  width="159px" height="45px">
+            <span id="demo" class="date"></span>
+        </div>
+            <div class="nav-container">
+                <div class="header-wrapper">
+                    <ul class="menu">
+                        <li>Local</li>
+                        <li>Sport</li>
+                        <li>Lifestyle</li>
+                        <li>Entertainment</li>
+                        <li>Tech</li>
+                        <li>Politics</li>
+                        <li>Finance</li>
+                        <li>World</li>
+                        <li>Weather</li>
+                        <li>Contact Us</li>
+                    
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="info news-content1">
+            <div class="news-blog-container">
+                <h1>Rita Ora talks life in Australia and what she really thinks about her fellow The Voice coaches</h1>
+                <p class="para">Rita Ora is back and ready to take on The Voice Australia for the second year running.</p>
+            </div>
+            <div class="video-container">
+                <iframe width="100%" height="427" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                </iframe>
+            </div>
+            <div class="links-container">
+                <div class="link">
+                    <a class="content-link" href="">Georgie Kearney</a>
+                    <span class="#"> / </span>
+                    <a class="link-container" href="">The Voice Australia</a>
+                    <span class="#">  / Updated 3 hours ago</span>
+                </div>
+                <div class="heading-social">
+                    <span class="share">Share</span>
+                    <ul class="content social-icon ">
+                        <li class="twitter">
+                            <a href="">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 16"><title>Follow 7NEWS on Twitter</title><path d="M16.17 4.83c0 4.97-3.72 10.7-10.5 10.7-2.1 0-4.04-.62-5.67-1.68.3.03.58.05.88.05 1.73 0 3.32-.6 4.6-1.6-1.63-.04-3-1.13-3.46-2.62.22.04.45.06.7.06.33 0 .58-.04.9-.13C1.9 9.3.56 7.78.56 5.95V5.9c0 .27 1.14.44 1.75.46C1.3 5.68.7 4.53.7 3.23c0-.7.2-1.34.5-1.9C3.08 3.6 5.8 5.1 8.88 5.27c-.07-.28-.1-.57-.1-.86 0-2.06 1.66-3.74 3.7-3.74 1.06 0 2.02.45 2.7 1.2.84-.18 1.63-.5 2.34-.93-.26.9-.85 1.63-1.6 2.1.74-.1 1.45-.3 2.1-.6-.5.76-1.1 1.42-1.83 1.95v.48z"></path></svg>
+                            </a>
+                        </li>
+                        <li class="facebook">
+                            <a href="">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 438 817.8"><title>Follow 7NEWS on Facebook</title><path d="M409.3 460L432 312H290v-96c0-40.5 19.8-80 83.4-80H438V10S379.4 0 323.4 0C206.4 0 130 70.9 130 199.2V312H0v148h130v357.8h160V460h119.3z"></path></svg>
+                            </a>
+                        </li> 
+                        <li class="message">
+                            <a href="">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 13"><title>Email 7NEWS</title><path d="M9 6.84L17.26.27C17 .1 16.7 0 16.36 0H1.64c-.32 0-.6.1-.86.25L9 6.85z"></path><path d="M17.8.88l-8.56 6.8c-.14.1-.34.1-.48 0L.2.85c-.12.23-.2.5-.2.8v9c0 .9.73 1.62 1.64 1.62h14.72c.9 0 1.64-.73 1.64-1.63v-9c0-.28-.07-.53-.2-.76"></path></svg>
+                            </a>
+                        </li> 
+                    </ul>
+                </div>
+        </div>
+
+    </main>
+    <script>
+           // When the user scrolls the page, execute myFunction
+           window.onscroll = function() {myFunction()};
+
+            // Get the header
+            var header = document.getElementById("myHeader");
+
+            // Get the offset position of the navbar
+            var sticky = header.offsetTop;
+
+            // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+            function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+            }
+           const d = new Date();
+           document.getElementById("demo").innerHTML = d;
+    </script>
+</body>
+</html>
