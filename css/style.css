@@ -3,4 +3,7 @@
 @import "color.css";
 @import "typography.css";
 @import "style-desktop.css";
-@import "style-mobile.css" screen and (max-width: 429px);
+@import "style-tablet.css" screen and (min-width: 768px) and (max-width: 1000px);
+@import "style-mobile.css" screen and (max-width: 767px);
+
+
