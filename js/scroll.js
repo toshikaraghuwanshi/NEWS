@@ -16,4 +16,7 @@ function myFunction() {
 }
 
 
+    document.getElementById("local").addEventListener("click", function(){
+        window.location.href = "file:///Users/toshikaraghuwanshi/Downloads/UDACITY/NEWS/pages/news-detail.html";
+    });
 

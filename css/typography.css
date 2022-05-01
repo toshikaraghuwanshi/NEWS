@@ -32,3 +32,12 @@ blockquote{
     color: var(--mediumgrey);
     quotes: '\00AB' '\00BB' '\201E' '\201C';
 }
+b {
+    font-weight: bold;
+}
+u {
+    text-decoration: underline;
+}
+i {
+    font-style: italic;
+}

@@ -231,7 +231,6 @@ p.content{
     width: 1000px;
     margin: 0 auto;
     font-family:  "Roboto Condensed", "Arial Narrow", Helvetica, Arial, sans-serif;
-    font-weight: bold;
     font-size: 15px;
     color: var(--black);
     margin-bottom: 15px;
