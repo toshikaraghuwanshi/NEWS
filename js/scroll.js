@@ -17,6 +17,6 @@ function myFunction() {
 
 
     document.getElementById("local").addEventListener("click", function(){
-        window.location.href = "file:///Users/toshikaraghuwanshi/Downloads/UDACITY/NEWS/pages/news-detail.html";
+        window.location.href = "https://7news.netlify.app/pages/news-detail.html";
     });
 
